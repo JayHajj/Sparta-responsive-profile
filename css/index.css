@@ -30,3 +30,12 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
+
+@media screen and (max-width: 820px){
+	.left {
+		width: 80%
+	}
+	.right {
+		width: 80%
+	}
+	}
