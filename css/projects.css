@@ -1,7 +1,7 @@
 .screenshot {
   padding-top:30px;
   height: 200px;
-  width: 300px;
+  width: 250px;
 }
 
 .tile {
@@ -17,4 +17,11 @@
 .tile img	{
 	display: block;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .tile {
+    width : 85%;
+  }
 }
